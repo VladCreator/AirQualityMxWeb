@@ -5,7 +5,7 @@ Aire Limpio (Mx) (en adelante, "la Aplicación") es una aplicación desarrollada
 ## 1. Recopilación y Uso de Información
 Para una mejor experiencia al utilizar nuestra Aplicación, es posible que le pidamos que nos proporcione cierta información de identificación personal. La información que solicitemos se mantendrá en su dispositivo y no será recopilada por nosotros de ninguna manera, a menos que se indique lo contrario.
 
-Datos de Ubicación: Si la aplicación solicita acceso a su ubicación, se utiliza exclusivamente para mostrar la calidad del aire en su zona actual. Estos datos no se almacenan en nuestros servidores.
+Datos de Ubicación: La Aplicación puede solicitar acceso a su ubicación aproximada y precisa (GPS). Estos datos se utilizan exclusivamente para determinar con exactitud la estación de monitoreo de calidad del aire más cercana a su posición actual y para visualizarla en el mapa integrado. Estos datos se procesan de forma efímera en el dispositivo y no se almacenan en nuestros servidores ni se comparten con terceros con fines comerciales.
 
 Datos de Uso: Podemos recopilar información que su dispositivo envía cada vez que utiliza la Aplicación (logs) para mejorar la estabilidad y el rendimiento.
 

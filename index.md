@@ -1,60 +1,74 @@
-# 🍃 Aire Limpio (Mx)
+# 🍃 AirQualityMx (Aire Limpio)
 ### *Tu salud comienza con un respiro.*
 
-¡Bienvenido a la guía oficial de **Aire Limpio (Mx)**! Nuestra misión es proporcionarte información precisa y en tiempo real sobre la calidad del aire que respiras, ayudándote a tomar mejores decisiones para tu salud y la de tu familia.
+¡Bienvenido a la guía oficial de **AirQualityMx**! Nuestra misión es proporcionarte información precisa, técnica y en tiempo real sobre la calidad del aire, radiación UV y temperatura, ayudándote a tomar decisiones informadas para proteger tu bienestar.
 
 ---
 
-## ✨ ¿Qué hace especial a Aire Limpio (Mx)?
+## ✨ ¿Qué hace especial a AirQualityMx?
 
-En un mundo donde la contaminación ambiental es una preocupación constante, nuestra app se convierte en tu aliado digital. No solo te damos números, te damos contexto y herramientas para protegerte.
+A diferencia de otras aplicaciones, **AirQualityMx** integra redes ciudadanas y algoritmos de salud personalizados en una experiencia fluida y sin anuncios.
 
 ### 🚀 Funciones Principales
 
-#### 1. Monitoreo en Tiempo Real ⏱️
-Conéctate a una red de sensores de alta precisión. Obtén lecturas actualizadas cada 10 minutos o utiliza el método **NowCast** para conocer la calidad del aire exacta en este preciso momento.
+#### 1. Red de Monitoreo Ciudadano 🌍
+Conéctate a las redes más grandes de sensores de bajo costo:
+*   **Redspira:** Identificados con **hexágonos verdes**.
+*   **PurpleAir:** Identificados con **círculos morados**.
+*   Datos de clima precisos vía **WeatherAPI**.
 
-#### 2. Tablero de Favoritos ❤️
-No pierdas tiempo buscando. Selecciona hasta **2 monitores favoritos** (como tu casa y tu oficina) para ver su estado actual nada más abrir la app en la pantalla de inicio.
+#### 2. Asistente de Salud Inteligente 🏥
+No solo recibes datos, recibes consejos. Configura tu perfil (**Niño, Anciano, Deportista, Sensible o Estándar**) y sincroniza con **HealthKit (iOS)** o **Health Connect (Android)** para obtener recomendaciones basadas en tu edad y condición física (asma, alergias, etc.).
 
-#### 3. Alertas Inteligentes 🔔
-Nuestra app trabaja por ti en segundo plano. Te notificaremos automáticamente solo cuando haya un cambio significativo en la categoría de calidad del aire (por ejemplo, si pasa de "Buena" a "No saludable"). ¡Sin spam, solo información crítica!
+#### 3. Alertas Críticas (Silent Push) 🔔
+Nuestra app te protege sin molestar. Te notificaremos automáticamente cuando:
+*   El AQI pase a una categoría peor (ej. de "Aceptable" a "Mala").
+*   La **Radiación UV** sea extrema (≥ 8.0).
+*   La **Temperatura** sea crítica (≤ 0°C o ≥ 40°C).
 
-#### 4. Widget de Pantalla de Inicio 📱
-Mantente informado sin siquiera abrir la aplicación. Configura nuestro widget y consulta el AQI (Índice de Calidad del Aire) directamente desde la pantalla principal de tu teléfono.
+#### 4. Mapas Interactivos y Optimizados 🗺️
+Explora más de 27,000 sensores sin lag gracias a nuestro motor de **QuadTree**. 
+*   **Android:** Basado en OpenStreetMap (osmdroid).
+*   **iOS:** Integración nativa con MapKit y menús personalizados.
 
-#### 5. Datos Meteorológicos Integrados 🌡️
-Porque la calidad del aire y el clima van de la mano. Consulta temperatura, humedad y presión atmosférica en el mismo lugar.
+#### 5. Consumo Justo y Transparente ⚖️
+Respetamos las cuotas de las APIs gratuitas. La app incluye un monitor de **Consumo Justo** (límite de 200 consultas diarias) para asegurar que el servicio siga siendo gratuito para todos.
 
 ---
 
 ## 🧘 Consejos para tu Salud
 
-La app incluye una sección dinámica de **Tips de Salud**. Dependiendo del estado del aire, recibirás recomendaciones como:
-*   "Usa cubrebocas N95 si sales en días de alta contaminación."
-*   "Mantén las ventanas cerradas si el AQI supera los 100 puntos."
-*   "Evita hacer ejercicio al aire libre durante las horas pico."
+El **Banner de Consejos** dinámico en el header prioriza la amenaza más severa. Si la temperatura es más peligrosa que el aire, la app te avisará primero:
+*   "Nivel de UV extremo: busca sombra y usa protector solar."
+*   "AQI no saludable: evita actividades intensas al aire libre."
+*   "Clima gélido: protégete de cambios bruscos de temperatura."
 
 ---
 
 ## 🛠️ Cómo funciona (Paso a Paso)
 
-1.  **Explora los Sensores:** Ve a la pestaña de "Sensores" para ver la lista completa de dispositivos disponibles.
-2.  **Personaliza tu Vista:** Desde los ajustes, elige tu monitor preferido, el intervalo de actualización y el método de cálculo (como el estándar US-EPA AQI).
-3.  **Comparte la Información:** ¿Ves algo preocupante? Usa nuestra función de **Compartir**. Puedes enviar un resumen detallado en texto o una imagen visualmente atractiva con los datos actuales.
-4.  **Configura tu Perfil:** Elige qué pantalla quieres ver al iniciar la app y gestiona tus permisos de notificaciones de forma sencilla.
+1.  **Configura tu Sensor Prioritario:** Marca un sensor con el icono de la **Campana** para recibir notificaciones de ese lugar específico.
+2.  **Personaliza tu Inicio:** Elige entre ver tus **Favoritos**, la lista de **Sensores** o el **Mapa** al abrir la app.
+3.  **Comparte con Impacto:** Genera una **imagen PNG** elegante de tus sensores favoritos para compartir en redes sociales o envía un reporte detallado en texto.
+4.  **Sincroniza tu Salud:** Conecta tus datos biométricos para que la app sepa si eres un deportista o una persona mayor y ajuste sus consejos automáticamente.
 
 ---
 
-## 🌍 Multiplataforma
-Aire Limpio (Mx) ha sido desarrollada con tecnología de vanguardia (**Kotlin Multiplatform**), lo que garantiza una experiencia fluida y nativa tanto en **Android** como en **iOS**.
+## 🌍 Multiplataforma Real
+Desarrollada con **Kotlin Multiplatform (KMP)** y **Compose Multiplatform**, garantizando que la lógica de cálculo sea idéntica en todos tus dispositivos:
+*   **Android:** Con widgets de escritorio (Glance).
+*   **iOS:** Con soporte para WidgetKit y (próximamente) Live Activities.
+*   **Web (Wasm):** Consulta rápida desde cualquier navegador sin rastreadores.
 
 ---
 
-## 🛡️ Tu Privacidad / Privacy Policy
+## 🛡️ Tu Privacidad y Ética
+*   **100% Libre de Anuncios:** Sin AdMob ni rastreo publicitario.
+*   **Sin Contenido UGC:** Un entorno seguro y puramente informativo.
+*   **Privacidad Web:** No solicitamos tu ubicación en la web a menos que tú lo pidas explícitamente.
 
 ### [Privacy Policy](privacy.md)
 ---
 
 > **"Monitorea el aire, protege tu vida."**  
-> ¡Descarga Aire Limpio (Mx) hoy mismo y empieza a respirar con tranquilidad!
+> ¡AirQualityMx es un proyecto independiente mantenido por la comunidad!

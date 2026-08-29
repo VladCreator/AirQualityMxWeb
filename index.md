@@ -17,8 +17,8 @@ Conéctate a las redes más grandes de sensores de bajo costo:
 *   **PurpleAir:** Identificados con **círculos morados**.
 *   Datos de clima precisos vía **WeatherAPI**.
 
-#### 2. Asistente de Salud Inteligente 🏥
-No solo recibes datos, recibes consejos. Configura tu perfil (**Niño, Anciano, Deportista, Sensible o Estándar**) y sincroniza con **HealthKit (iOS)** o **Health Connect (Android)** para obtener recomendaciones basadas en tu edad y condición física (asma, alergias, etc.).
+#### 2. Asistente de Salud Informativo 🏥
+Recibe consejos prácticos basados en la calidad del aire del momento. Personaliza tu perfil de forma manual (Niño, Anciano, Deportista, Sensible o Estándar) para obtener recomendaciones preventivas adaptadas a tu grupo de edad y sensibilidades respiratorias (como asma o alergias). En **AirQualityMx** priorizamos tu privacidad: el asistente funciona de forma local y no solicita acceso a tus datos privados del sistema, dándote el control total de tu información.
 
 #### 3. Alertas Críticas (Silent Push) 🔔
 Nuestra app te protege sin molestar. Te notificaremos automáticamente cuando:
